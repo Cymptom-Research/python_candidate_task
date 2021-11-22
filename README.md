@@ -1,6 +1,6 @@
 # Cymptom Python Candidate Task
 
-## Pulling EC2 data using Python
+## Part 1 - Pulling EC2 data using Python
 Your goal in this assignment is to pull EC2 instances data from AWS cloud and structure it in a human-readable way.
 You will receive a token in a separate mail for interacting with our testing AWS environment.
 You will probably need to use [boto3 describe_instances](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html#EC2.Client.describe_instances)
@@ -50,10 +50,10 @@ code in a modular way so:
 * Your code should be robust enough to handle the limited access and pull info as best as it can!
 
 
-## Bonus
+## Part 2 - Unit tests
 
-If you'll use pytest and write a basic test-suit in order to validate that your assignment is working as 
-expected that will definitely give you an edge over other submissions!
+If you'll use pytest and write a basic test-suit in order to validate that your assignment is working as expected!
+
 
 ## Assignment submission
 You should send us back a repository containing the code you have written.
