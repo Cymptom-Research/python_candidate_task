@@ -47,6 +47,7 @@ code in a modular way so:
 * **Don't clone this repo!**
 * AWS has different regions that each may contain EC2 instances, you should pull all instances, take that into account!
 * The credentials you received might have limited access to ec2 and to AWS regions, try first pulling from “us-east-2” to make sure it works.
+* Your code should be robust enough to handle the limited access and pull info as best as it can!
 
 
 ## Bonus
