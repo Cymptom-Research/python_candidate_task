@@ -44,7 +44,7 @@ code in a modular way so:
 * Use python version 3.7+
 * Use [typing](https://docs.python.org/3/library/typing.html) to make methods as clear as possible.
 * Please try to keep pep8 linting guidelines.
-* **Don't clone this repo!**
+* **Don't clone or fork this repo!**
 * AWS has different regions that each may contain EC2 instances, you should pull all instances, take that into account!
 * The credentials you received might have limited access to ec2 and to AWS regions, try first pulling from “us-east-2” to make sure it works.
 * Your code should be robust enough to handle the limited access and pull info as best as it can!
@@ -57,6 +57,6 @@ You will need use pytest to write a basic unit tests test-suit in order to valid
 
 ## Assignment submission
 You should send us back a repository containing the code you have written.
-Please don't clone the repo!
+Please don't clone or fork the repo!
 
 **Good luck!**
