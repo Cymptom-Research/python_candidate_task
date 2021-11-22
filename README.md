@@ -46,6 +46,7 @@ code in a modular way so:
 * Please try to keep pep8 linting guidelines.
 * **Don't clone this repo!**
 * AWS has different regions that each may contain EC2 instances, you should pull all instances, take that into account!
+* The credentials you received might have limited access to ec2 and to AWS regions, try first pulling from “us-east-2” to make sure it works.
 
 
 ## Bonus
