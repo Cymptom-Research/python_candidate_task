@@ -5,6 +5,7 @@ Your goal in this assignment is to pull EC2 instances data from AWS cloud and st
 You will receive a token in a separate mail for interacting with our testing AWS environment.
 You will probably need to use [boto3 describe_instances](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html#EC2.Client.describe_instances)
 method to pull the container data from our environment.
+The credentials you received might have limited access to ec2 and to AWS regions, try first pulling from “us-east-2” to make sure it works!
 
 ### What data to pull?
 EC2 instances have a lot of metadata related to them, your task is to pull all instances in our environment.
@@ -46,7 +47,6 @@ code in a modular way so:
 * Please try to keep pep8 linting guidelines.
 * **Don't clone or fork this repo!**
 * AWS has different regions that each may contain EC2 instances, you should pull all instances, take that into account!
-* The credentials you received might have limited access to ec2 and to AWS regions, try first pulling from “us-east-2” to make sure it works.
 * Your code should be robust enough to handle the limited access and pull info as best as it can!
 
 
