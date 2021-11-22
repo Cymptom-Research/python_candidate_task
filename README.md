@@ -52,7 +52,7 @@ code in a modular way so:
 
 ## Part 2 - Unit tests
 
-If you'll use pytest and write a basic test-suit in order to validate that your assignment is working as expected!
+You will need use pytest to write a basic unit tests test-suit in order to validate that your assignment is working as expected!
 
 
 ## Assignment submission
