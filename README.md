@@ -48,7 +48,7 @@ code in a modular way so:
 * **Don't clone or fork this repo!**
 * AWS has different regions that each may contain EC2 instances, you should pull all instances, take that into account!
 * Your code should be robust enough to handle the limited access and pull info as best as it can!
-* **Please don't load it with your source code for the world to see, that's a security breach!!!!!!**
+* **Please don't load the key or secrete with your source code for the world to see, that's a security breach, and that will disqualfy you!!!!!!**
 
 
 ## Part 2 - Unit tests
